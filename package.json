@@ -4,8 +4,16 @@
   "description": "Poker Game",
   "main": "index.js",
   "scripts": {
+    "serve": "parcel serve src/index.html",
+    "dev": "cross-env NODE_ENV=development parcel build src/index.html --no-cache",
+    "build": "cross-env NODE_ENV=production parcel build src/index.html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "San Diego Code School Graduates",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "cross-env": "^7.0.2",
+    "express": "^4.17.1",
+    "parcel": "^1.12.4"
+  }
 }
