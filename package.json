@@ -1,8 +1,8 @@
 {
-  "name": "poker-stars",
+  "name": "poker-palace",
   "version": "1.0.0",
   "description": "Poker Game",
-  "main": "index.js",
+  "main": "index.html",
   "scripts": {
     "serve": "parcel serve src/index.html",
     "dev": "cross-env NODE_ENV=development parcel build src/index.html --no-cache",
